@@ -1,0 +1,259 @@
+body{
+	background-color: white;
+	font-family: sans-serif;
+  	font-style: normal;
+  	font-size: 14px / 100%;
+  	height: 100%;
+}
+
+/*top pink section*/
+
+/*nav-bar*/
+.nav-bar{
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	background-color: #ae1f58;
+	z-index: 1000;
+}
+.nav-content-container{
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+}
+.header-logo{
+	position: absolute;
+	top: 1em;
+}
+.nav-links-container{
+	position: absolute;
+	right: 0;
+	color: white;
+	margin-top: 2.5em;
+
+}
+.nav-links-container li{
+	display: inline-block;
+	padding-left: 1.5em;
+}
+.nav-links-container li a{
+	text-decoration: none;
+	color: white;
+	letter-spacing: .05em;	
+	text-transform: uppercase;
+	font-size: .95em;
+	font-weight: 900;
+}
+/*pink-section-content*/
+.pink-section{
+	height: 800px;
+	background-color: #eb1767;
+	
+}
+.pink-content-wrapper{
+	height: 100%;
+	width: 70%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.pink-info{
+	width: 70%;
+	margin: 11em auto;
+	margin-bottom: 4em;
+}
+
+.strong-type{
+	color: white;
+	font-size: 34px;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 1.2em;
+	letter-spacing: .025em;
+}
+.light-type{
+	color: white;
+	font-size: 20px;
+	line-height: 1.5em;
+	letter-spacing: .025em;
+	margin-top: 2em;
+	margin-bottom: 0;
+}
+.grey-type{
+	color: #333333;
+}
+.feature-logos-box{
+position: relative;
+}
+.feature-logos{
+	position: absolute;
+	top: 5em;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+.apply-btn{
+	position: relative;
+
+}
+.apply-btn a{
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 12em;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	font-size: 22px;
+	background-color:#ae1f58;
+	padding: 14px 18px;
+	border-radius: 10%;
+
+}
+.picture-section{
+	width: 100%;
+	height: 700px;	
+	background: url("../assets/timeline_bg.jpg") no-repeat center fixed;
+	background-size: cover;
+}
+.picture-section-info{
+	width: 60%;
+	margin: auto;
+	padding-top: 125px;
+
+}
+.timeline-image-container{
+	width: 813px;
+	height: 200px;
+	background-color: #292627;
+	margin: 0 auto;
+
+}
+.timeline-white{
+	background-color: white;
+	width: 813px;
+	height: 200px;
+}
+
+.timeline-pink{
+	background-color: #ae1f58;
+	width: 0;
+	height: 200px; 
+}
+.timeline-white:hover .timeline-pink {
+	width: 813px;
+	transition-duration: 1s;
+
+}
+.timeline-outside-container{
+	background-color: #292627;
+	width: 100%;
+	height: 200px;
+}
+
+/*instructors white area*/
+.about-instructors-wrap{
+	width: 100%;
+	height: 800px;
+}
+.about-info{
+	width: 60%;
+	margin: auto;
+	padding-top: 125px;
+}
+.about-paragraphs{
+	margin-bottom: 65px;
+}
+.style-hr{
+	width: 85%;
+	margin-top: 50px;
+	margin-bottom: 75px;
+}
+.mentor-images-container{
+	width: 80%;
+	margin:50px auto;
+
+}
+.mentor-images-container ul li{
+	display: inline-block;
+
+}
+
+.mentor-picks{
+	width: 130px;
+	height: 152px;
+}
+.mentor-ul{
+	width: 800px;
+	margin: auto;
+	text-align: center;
+}
+.instructors-final-blurb{
+	width: 60%;
+	margin: auto;
+	padding-bottom: 80px;
+}
+
+/*APPLY SECTION*/
+
+.apply-container{
+	background-color: #f4f4f4;
+	width: 100%;
+	height: 630px;
+	margin-top: 225px;
+}
+.apply-content-wrap{
+	width: 60%;
+	height: 100%;
+	margin:auto;
+	padding-top: 50px;
+}
+.apply-info{
+	margin-top: 50px;
+}
+.apply-table{
+	width: 100%;
+}
+.table-btn{
+	background-color: #eb1767;
+	text-decoration: none;
+	color: white;
+	padding: 8px 12px;
+	border-radius: 10%;
+}
+table td{
+	padding: 15px;
+}
+thead{
+	background-color: #999999;
+	color: white;
+}
+.table-headers th{
+	padding: 12px 12px; 
+}
+.course-font{
+	color: #eb1767;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

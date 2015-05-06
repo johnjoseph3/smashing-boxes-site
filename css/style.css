@@ -199,8 +199,8 @@ position: relative;
 .apply-container{
 	background-color: #f4f4f4;
 	width: 100%;
-	height: 630px;
 	margin-top: 225px;
+	margin-bottom: 0px;
 }
 .apply-content-wrap{
 	width: 60%;
@@ -213,6 +213,7 @@ position: relative;
 }
 .apply-table{
 	width: 100%;
+	margin-bottom: 75px;
 }
 .table-btn{
 	background-color: #eb1767;
@@ -220,7 +221,9 @@ position: relative;
 	color: white;
 	padding: 8px 12px;
 	border-radius: 10%;
+	border: none;
 }
+
 table td{
 	padding: 15px;
 }
@@ -234,10 +237,69 @@ thead{
 .course-font{
 	color: #eb1767;
 }
+/*MAP SECTION*/
+.map-container{
+	width: 100%;
+	height: 565px;
+	background: url("../assets/smashing-map.png");
+}
+.pink-overlay{
+	width: 50%;
+	height: 100%;
+	background-color: #eb1767;
+	float: right;
+	opacity: 0.8; 
+}
+.map-info{
+	width: 70%;
+	height: 100%;
+	margin: 70px auto;
+}
+.map-info p{
+	color: white;
+	padding: 15px;
+	font-size: 20px;
+	line-height: 1.2em;
+}
+#contact-title{
+	font-size: 40px;
+}
+.image-icons{
+	float:left;
+	margin-right: 20px;
+}
+.footer{
+	background-color: #292627;
+	height: 150px;
+	text-align: center;
+}
+.foot-section{
+	position: relative;
+	width: 32%;
+	display: inline-block;
+}
 
-
-
-
+.footer-logos{
+	width: 50px;
+	height: 50px;
+	margin: 25px 10px;
+	display: inline-block;
+}
+.form-text{
+	padding-bottom: 5px;
+	color: grey;
+}
+.form-input{
+	width: 200px;
+	height: 25px;
+	padding-right: 25px;
+}
+.social-links{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
 
 
 
